@@ -17,3 +17,57 @@ nav ul{
     list-style: none;
 
 }
+.gameContainer{
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(3, 10vw);
+    grid-template-rows: repeat(3, 10vw);
+    font-family:Arial, Helvetica, sans-serif ;
+
+}
+
+.box{
+    border: 1px black solid ;
+    text-align: center;
+    cursor: pointer;
+    line-height: 10vw;
+    font-weight: bold;
+}
+.box:hover {
+    background-color:#b7d8c5
+}
+
+.gameinfo{
+    margin: 35px;
+}
+.border-top{
+    border-top: none
+}
+.border-right{
+    border-right: none;
+}
+.border-bottom{
+    border-bottom: none;
+}
+.border-left{
+    border-left: none;
+}
+
+.gameinfo{
+    display: flex;
+
+}
+.info{
+    margin: 35px;
+}
+
+button{
+    margin: 35px;
+    height: 30px;
+    width: 60px;
+
+}
